@@ -1,0 +1,31 @@
+.thanks {
+  margin: auto;
+  text-align: center;
+
+  &__title {
+  font-size: 350%;
+  margin-bottom: 10px;
+  }
+
+  &__msg {
+    font-size: 130%;
+    margin-bottom: 50px;
+  }
+
+  &__link {
+    color: $color-primary-darker;
+    font-size: 120%;
+    font-weight: 500;
+
+    &:hover {
+      color: $color-primary-medium;
+    }
+  }  
+
+  &__img {
+    border: 4px solid $color-primary-medium;
+    border-radius: 50%;
+    margin: 100px auto 30px;
+    width: 250px;
+  }
+}

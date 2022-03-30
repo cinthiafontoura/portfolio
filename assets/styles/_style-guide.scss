@@ -1,0 +1,56 @@
+// Fonts
+$font-primary: 'Roboto', sans-serif;
+$font-secundary: 'Roboto Mono', monospace;
+
+// Colors
+$color-dark: #4b315c;
+$color-light: #FFF;
+$color-primary: #D089FF;
+$color-primary-darker: #684580;
+$color-primary-gray: #776B80;
+$color-primary-lighter: #EFD6FF;
+$color-primary-medium: #A66ECC;    
+
+// Icons size
+$icon-big: 2rem;
+$icon-medium: 1.6rem;
+$icon-small: 1.2rem; 
+
+// Buttons
+.btn {
+  background: $color-primary; 
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: $color-dark;
+  font-size: 90%;
+  font-weight: 400;
+  margin-right: 8px;
+  padding: 12px 20px;  
+  text-decoration: none;
+
+  &:hover {
+    background: $color-primary-lighter;
+    border: 2px solid $color-primary-darker;
+    color: $color-primary-darker;
+    transition: ease .3s;
+  }
+
+  &__ghost--dark {
+    background: $color-primary-darker;
+    border: 2px solid $color-primary-lighter;
+    color: $color-primary-lighter;
+  }
+
+  &__ghost--light {
+    background: $color-primary-lighter;
+    border: 2px solid $color-primary-darker;
+    color: $color-primary-darker;
+
+    &:hover {
+    background: $color-primary;
+    border: 2px solid $color-primary;
+    color: $color-dark;
+    }
+  }
+}
+

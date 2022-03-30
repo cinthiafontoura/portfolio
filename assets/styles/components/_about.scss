@@ -1,0 +1,39 @@
+.about {
+  margin: 0 auto 50px;
+    
+  &__bg {
+    background-image: linear-gradient(5deg, $color-primary-lighter 48.69%, $color-primary-darker 49%);
+    height: 150px;   
+    margin-top: 0;    
+  }
+
+  &__title {
+    margin: -70px 0 50px;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__img {  
+    border-radius: 8px;
+    height: 30%;
+    width: 30%; 
+  }
+
+  &__info {
+    display: block;
+    margin-left: 30px;
+    width: 65%;
+  }
+
+  &__description {  
+    line-height: 1.5;
+    margin-bottom: 20px;  
+  }
+
+  &__icon {
+    font-size: $icon-medium; 
+    margin: 0 20px 40px 0;   
+  }
+}

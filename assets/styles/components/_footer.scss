@@ -1,0 +1,26 @@
+.social-media {
+  background-color: $color-primary-darker;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+
+  &__item {
+    padding: 20px 30px 40px;
+  }
+
+  &__link {
+    color: $color-primary-lighter; 
+    font-size: $icon-big;   
+
+    &:hover {
+      color: $color-primary;
+      transition: ease .3s;
+    }
+  }  
+
+  .copyright {
+    color: $color-primary-lighter;
+    font-size: 80%;
+  }
+}
+
