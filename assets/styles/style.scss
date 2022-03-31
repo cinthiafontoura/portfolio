@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
 
-@import 'style-guide', './components/header', './components/banner', './components/projects', './components/about', './components/contact', './components/footer', './components/thanks-page', './components/mobile';
+@import 'style-guide';
 
 * {
     box-sizing: border-box;
@@ -37,3 +37,4 @@ li  {
     list-style: none;    
 }
 
+@import './components/header', './components/banner', './components/projects', './components/about', './components/contact', './components/footer', './components/thanks-page', './components/mobile';

@@ -4,7 +4,7 @@
   "description": "Cinthia Fontoura Portfolio is a site for those who are looking to hire me as a front-end software developer to joy their team and bring a project to life. Users of this site will be able to see some of my projects live and check the code, know more about me, which technologies I'm using or studying, contact me and follow me on social media and hopefully hire me!",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w assets/styles/ -o assets/styles/ --recursive"
+    "sass": "node-sass -w assets/styles/ -o assets/styles/"
   },
   "repository": {
     "type": "git",

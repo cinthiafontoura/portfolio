@@ -31,6 +31,36 @@
   border: 2px solid #D089FF;
   color: #4b315c; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  background: #EFD6FF;
+  color: #684580;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+  scroll-padding-block: 100px; }
+
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%; }
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 200%;
+  padding-bottom: 30px; }
+
+li {
+  display: inline-block;
+  list-style: none; }
+
 .navbar {
   background-color: rgba(239, 214, 255, 0.9);
   left: 50%;
@@ -427,33 +457,3 @@ hr {
     font-size: 210%; }
   .thanks__img {
     width: 180px; } }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-html {
-  background: #EFD6FF;
-  color: #684580;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  scroll-behavior: smooth;
-  scroll-padding-block: 100px; }
-
-.container {
-  padding: 0 10px;
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%; }
-
-h2 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 200%;
-  padding-bottom: 30px; }
-
-li {
-  display: inline-block;
-  list-style: none; }
