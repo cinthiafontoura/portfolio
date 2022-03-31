@@ -12,7 +12,7 @@ The live website can be found here [Portfolio](https://cinthiafontoura.com).
 
 * **Navigation**
   - Fixed navigation bar includes links to the Projects, About and Contact sections to allow easy navigation through the page. 
-  - The logo make it easy back to the top of the page without scrolling up.  
+  - The logo make it easy back to homepage without scrolling up.  
   
 ![navigation](https://user-images.githubusercontent.com/80278757/157774697-d9a78bc0-c8ea-4f33-9146-2790d12b46f7.png)
 
@@ -118,7 +118,7 @@ The live website can be found here [Portfolio](https://cinthiafontoura.com).
 
   * **To implement**
     * Using a gif in the hero animation is causing damage to the performance for desktop and mobile versions, the better way to prevent this is using a video instead.
-    * For the mobile performance increase is necessary to reduce the size of the images.
+    * For the mobile performance increase is necessary to reduce the size of the images. 
 
  
      
