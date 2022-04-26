@@ -4,13 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Description of website -->
         <meta name="description" content="A portfolio website where you can see my projects, skills and get in touch.">
         <meta name="keywords" content="Cinthia Fontoura, Portfolio, web developer, HTML, CSS, Dublin, Ireland">
         <meta name="author" content="Cinthia Fontoura">
+        <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
         <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+        <!-- CSS -->
         <link rel="stylesheet" href="assets/styles/style.css">
         <title>Cinthia Fontoura - Portfolio</title>
     </head>
@@ -38,6 +41,7 @@
             </div>                   
         </header>
         <main>
+        <!-- Banner/Introduction section-->
           <section class="banner container">            
               <div>
                   <h1 class="banner__title">
@@ -51,10 +55,34 @@
               </div>
               <img class="banner__img" src="assets/images/perfil-animation_hero.gif" alt="Cinthia perfil animation">           
           </section>
+          <!-- Projects section -->
           <section class="projects">
+          <!-- This div is used only to make a transversal style -->
               <div class="projects__bg"></div>
               <div class="container">
                   <h2 id="projects" class="projects__title">Projects</h2>
+                  <!-- Project 1 -->
+                  <div class="project__item--right">
+                      <div class="project__info--right">
+                          <h3 class="project__name">Terra Matter</h3>
+                          <p class="project__description">A learning web application that promotes curiosity and enjoyment in the process of acquiring knowledge about the impact of our daily routine on the environment. This project is created in recognition of Earth day during the Code Institute Hackathon and used HTML, CSS and JavaScript to build it.</p>
+                          <ul class="project__technologies">
+                              <li>
+                                  <i class="project__icon fa-brands fa-html5"></i>
+                              </li>
+                              <li>
+                                  <i class="project__icon fa-brands fa-css3-alt"></i>
+                              </li>
+                              <li>
+                                  <i class="project__icon fa-brands fa-js"></i>
+                              </li>
+                          </ul>
+                          <a class="btn btn__ghost--dark project__btn" href="https://cinthiafontoura.github.io/terra-matter/" aria-label="Have a look at the live website (open in a new tab)" target="_blank">Live Site</a>
+                          <a class="btn project__btn" href="https://github.com/cinthiafontoura/terra-matter" aria-label="Have a look at the code on GitHub (open in a new tab)" target="_blank">GitHub</a>                       
+                      </div>
+                      <img class="project__img" src="assets/images/terra-matter.png" alt="">                   
+                  </div> 
+                  <!-- Project 2 -->
                   <div class="project__item--left">
                       <div class="project__info--left">
                           <h3 class="project__name">Restaurant 104</h3>
@@ -75,6 +103,7 @@
                       </div>
                       <img class="project__img" src="assets/images/restaurant104.png" alt="Desktop and mobile version of Restaurant 104 website">                                         
                   </div>
+                  <!-- Project 3 -->
                   <div class="project__item--right">
                       <div class="project__info--right">
                           <h3 class="project__name">Portfolio</h3>
@@ -90,10 +119,11 @@
                                   <i class="project__icon fa-brands fa-sass"></i>
                               </li>
                           </ul>
-                          <a class="btn project__btn" href="https://github.com/cinthiafontoura/cinthia-fontoura-portfolio" aria-label="Have a look at the code on GitHub (open in a new tab)" target="_blank">GitHub</a>                       
+                          <a class="btn project__btn" href="https://github.com/cinthiafontoura/portfolio" aria-label="Have a look at the code on GitHub (open in a new tab)" target="_blank">GitHub</a>                       
                       </div>
                       <img class="project__img" src="assets/images/portfolio.png" alt="Desktop and mobile version of this website">                   
-                  </div>   
+                  </div>  
+                   <!-- Project 4 -->
                   <div class="project__item--left">
                       <div class="project__info--left">
                           <h3 class="project__name">TinDog</h3>
@@ -116,9 +146,11 @@
                   </div>             
               </div>            
           </section>
+          <!-- About me section -->
           <section class="about">
+          <!-- This div is used only to make a transversal style -->
               <div class="about__bg"></div>
-              <div class="container">
+              <div class="container">              
                   <h2  id="about" class="about__title">About Me</h2>
                   <div class="about__content">
                       <img class="about__img" src="assets/images/cinthia-head.jpg" alt="Cinthia head">
@@ -160,7 +192,9 @@
                   </div>      
               </div>                 
           </section>
+          <!-- Contact me section -->
           <section class="contact">
+          <!-- This div is used only to make a transversal style -->
               <div class="contact__bg"></div>
               <div class="container">
                   <h2  id="contact" class="contact__title">Contact Me</h2>
