@@ -23,16 +23,16 @@
     margin-bottom: 150px; 
 }
 
-.project__item--left:last-child {
-    margin-bottom: 0;
-    padding-bottom: 30px;
-}
-
 .project__item--right {
     align-items: center;
     display: flex;
     justify-content: space-between;    
     margin-bottom: 150px;   
+}
+
+.project__item--right:last-child {
+    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .project__info--left {
