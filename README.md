@@ -2,7 +2,9 @@
 
 Cinthia Fontoura Portfolio is a site for those who are looking to hire me as a front-end software developer to joy their team and bring a project to life. Users of this site will be able to see some of my projects live and check the code, know more about me, which technologies I'm using or studying, contact me and follow me on social media and hopefully hire me!
 
-The live website can be found here [Portfolio](https://cinthiafontoura.com).
+The live website can be found at [Portfolio](https://cinthiafontoura.com).
+
+PS - This website was created as the first assessment at Code Institute and received the MERIT grade. You can check all the [previus commits on the original code repository](https://github.com/cinthiafontoura/cinthia-fontoura-portfolio).
 
 ![responsive](https://user-images.githubusercontent.com/80278757/157774385-20d15644-0823-494f-ae1d-6276a7cf8513.png)
 
@@ -132,7 +134,7 @@ The site was deployed to Netlify pages. The steps to deploy are as follows:
    - Click on **Deploy site** and after a few seconds, you will have access to the URL of the deployed site.
    - Go to **Domain settings** > **Options** > **Edit site name** to change the site name and personalize the URL.
  
- The live website can be found here [Cinthia Fontoura Portfolio](https://cinthiafontoura.com).
+ The live website can be found at [Cinthia Fontoura Portfolio](https://cinthiafontoura.com).
   
  
 ## Credits
