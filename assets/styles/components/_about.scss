@@ -39,5 +39,7 @@
 
   &__badges {
     padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
   }
 }
