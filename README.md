@@ -148,3 +148,5 @@ The site was deployed to Netlify pages. The steps to deploy are as follows:
 * Images created and resized using Adobe Photoshop.
 * The images in the navigation, header and thank-you page was created using [picrew website](https://picrew.me/image_maker/338224).
 * Favicon generated on [Favicon](https://favicon.io/)
+* Mockups made using [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
+ Figma plugin.
